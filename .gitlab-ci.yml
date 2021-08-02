@@ -1,4 +1,4 @@
-image: node:alpine-lts
+image: node:lts-alpine
 
 before_script:
   - yarn install
