@@ -1,23 +1,20 @@
-import type {
-	OverrideBundleDefinition,
-	RegistryTypes,
-} from "@polkadot/types/types";
+import type { OverrideBundleDefinition, RegistryTypes } from '@polkadot/types/types'
 
-import { zero } from "./zero";
-import { hyperspace } from "./hyperspace";
-import { gamedao } from "./gamedao";
-import { sensenet } from "./sensenet";
+import { zero } from './zero'
+import { hyperspace } from './hyperspace'
+import { gamedao } from './gamedao'
+import { sensenet } from './sensenet'
 
 export const types: RegistryTypes = {
 	...zero,
 	...sensenet,
 	...hyperspace,
 	...gamedao,
-};
+}
 
 export const types19: RegistryTypes = {
 	...types,
-};
+}
 
 export const typeBundleForPolkadot: OverrideBundleDefinition = {
 	types: [
@@ -30,4 +27,4 @@ export const typeBundleForPolkadot: OverrideBundleDefinition = {
 			types: types19,
 		},
 	],
-};
+}

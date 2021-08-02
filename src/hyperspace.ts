@@ -1,24 +1,24 @@
-import type { RegistryTypes } from "@polkadot/types/types";
+import type { RegistryTypes } from '@polkadot/types/types'
 
 export const hyperspace: RegistryTypes = {
 	Space: {
-		id: "H256",
-		dna: "H256",
-		price: "Balance",
-		gen: "u64",
+		id: 'H256',
+		dna: 'H256',
+		price: 'Balance',
+		gen: 'u64',
 	},
-	SpaceId: "Hash",
-	HypaspaceId: "Hash",
+	SpaceId: 'Hash',
+	HypaspaceId: 'Hash',
 	HypaspaceMetadata: {
-		name: "Vec<u8>",
+		name: 'Vec<u8>',
 	},
 	Item: {
-		CommodityId: "CommodityId",
-		CommodityInfo: "CommodityInfo",
+		CommodityId: 'CommodityId',
+		CommodityInfo: 'CommodityInfo',
 	},
-	ItemId: "Hash",
+	ItemId: 'Hash',
 	ItemInfo: {
-		dob: "u64",
-		dna: "Hash",
+		dob: 'u64',
+		dna: 'Hash',
 	},
-};
+}
