@@ -12,19 +12,19 @@ export const types: RegistryTypes = {
   ...gamedao,
 }
 
-export const types18: RegistryTypes = {
+export const types19: RegistryTypes = {
   ...types
 }
 
 export const typeBundleForPolkadot: OverrideBundleDefinition = {
   types: [
     {
-      minmax: [0, 17],
+      minmax: [0, 18],
       types: types,
     },
     {
-      minmax: [18, undefined],
-      types: types18,
+      minmax: [19, undefined],
+      types: types19,
     },
   ],
 }
