@@ -1,7 +1,7 @@
 {
   "name": "@zeroio/type-definitions",
   "description": "polkadot js type defitinitons for zero network",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "license": "BSD-4-Clause",
   "repository": "https://github.com/playzero/zero-types",
   "main": "./lib/index.js",
