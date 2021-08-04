@@ -23,15 +23,17 @@ export const gamedao: RegistryTypes = {
 	Campaign: {
 		id: 'Hash',
 		org: 'Hash',
+		name: 'Vec<u8>',
 		owner: 'AccountId',
 		admin: 'AccountId',
 		deposit: 'Balance',
 		expiry: 'BlockNumber',
 		cap: 'Balance',
-		name: 'Vec<u8>',
 		protocol: 'u8',
 		governance: 'u8',
 		cid: 'Vec<u8>',
+    	token_symbol: 'Vec<u8>',
+    	token_name: 'Vec<u8>',
 		created: 'Timestamp',
 	},
 
