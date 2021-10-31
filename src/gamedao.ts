@@ -32,22 +32,33 @@ export const gamedao: RegistryTypes = {
 		protocol: 'u8',
 		governance: 'u8',
 		cid: 'Vec<u8>',
-    	token_symbol: 'Vec<u8>',
-    	token_name: 'Vec<u8>',
+		token_symbol: 'Vec<u8>',
+		token_name: 'Vec<u8>',
 		created: 'Timestamp',
 	},
 
 	Proposal: {
 		proposal_id: 'Hash',
-		campaign_id: 'Hash',
-		purpose: 'Vec<u8>',
-		cid: 'Vec<u8>',
-		amount: 'Balance',
-		expiry: 'BlockNumber',
+		context_id: 'Hash',
+		proposal_type: 'u8',
+		voting_type: 'u8',
 		status: 'u8',
+		expiry: 'BlockNumber'
+	},
+
+	ProposalMetadata: {
+		title: 'Vec<u8>',
+		cid: 'Vec<u8>',
+		amount: 'Balance'
 	},
 
 	Timestamp: 'Moment',
 	EventMessage: 'Vec<u8>',
 	Nonce: 'u64',
+	TitleText: 'Vec<u8>',
+	CID: 'Vec<u8>',
+	ProposalType: 'u8',
+	ProposalState: 'u8',
+	VotingType: 'u8'
+
 }

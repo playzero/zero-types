@@ -3,6 +3,7 @@ import type { OverrideBundleDefinition, RegistryTypes } from '@polkadot/types/ty
 import { zero } from './zero'
 import { hyperspace } from './hyperspace'
 import { gamedao } from './gamedao'
+import { tangram } from './tangram'
 import { sensenet } from './sensenet'
 
 export const types: RegistryTypes = {
@@ -10,9 +11,10 @@ export const types: RegistryTypes = {
 	...sensenet,
 	...hyperspace,
 	...gamedao,
+	...tangram,
 }
 
-export const types19: RegistryTypes = {
+export const types22: RegistryTypes = {
 	...types,
 }
 
@@ -24,7 +26,7 @@ export const typeBundleForPolkadot: OverrideBundleDefinition = {
 		},
 		{
 			minmax: [19, undefined],
-			types: types19,
+			types: types22,
 		},
 	],
 }
