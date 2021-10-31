@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.11](https://github.com/playzero/zero-types/compare/v0.0.9...v0.0.11) (2021-10-31)
+
+
+### Features
+
+* **types:** add governance, tangram ([d5a6d79](https://github.com/playzero/zero-types/commit/d5a6d792d6cb22423d64b1103f93ceca2e096c08))
+
 ### [0.0.9](https://github.com/playzero/zero-types/compare/v0.0.8...v0.0.9) (2021-10-24)
 
 ### [0.0.8](https://github.com/playzero/zero-types/compare/v0.0.7...v0.0.8) (2021-10-24)
