@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.12](https://github.com/playzero/zero-types/compare/v0.0.11...v0.0.12) (2021-11-15)
+
 ### [0.0.11](https://github.com/playzero/zero-types/compare/v0.0.9...v0.0.11) (2021-10-31)
 
 
