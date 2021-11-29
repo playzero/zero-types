@@ -1,6 +1,7 @@
 import type { RegistryTypes } from '@polkadot/types/types'
 
 export const gamedao: RegistryTypes = {
+
 	Body: {
 		id: 'Hash',
 		index: 'u128',
@@ -43,13 +44,13 @@ export const gamedao: RegistryTypes = {
 		proposal_type: 'u8',
 		voting_type: 'u8',
 		status: 'u8',
-		expiry: 'BlockNumber'
+		start: 'BlockNumber',
+		expiry: 'BlockNumber',
 	},
-
 	ProposalMetadata: {
 		title: 'Vec<u8>',
 		cid: 'Vec<u8>',
-		amount: 'Balance'
+		amount: 'Balance',
 	},
 
 	Timestamp: 'Moment',
@@ -59,6 +60,6 @@ export const gamedao: RegistryTypes = {
 	CID: 'Vec<u8>',
 	ProposalType: 'u8',
 	ProposalState: 'u8',
-	VotingType: 'u8'
+	VotingType: 'u8',
 
 }
