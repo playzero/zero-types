@@ -33,15 +33,19 @@ export const tangram: RegistryTypes = {
 		created: 'BlockNumber',
 		mutated: 'BlockNumber',
 	},
-	Tangram: {
-		dob: 'Moment',
-		dna: 'Hash',
+
+	MomentOf: 'Moment',
+	TangramId: 'Hash',
+	TangramItemOf: 'TangramItem',
+	TangramItem: {
+		dob: 'MomentOf',
+		dna: 'Hash'
 	},
 	TangramMetadata: {
+		realm: 'RealmIndex',
+		class: 'ClassIndex',
 		name: 'Vec<u8>',
-		owner: 'AccountId',
-		cid: 'Vec<u8>',
-	},
-	TangramId: 'Hash',
-	TangramItemOf: 'Tangram',
+		cid: 'Vec<u8>'
+	}
+
 }
